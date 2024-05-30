@@ -1,5 +1,10 @@
 #!/usr/bin/env bash
 
+# import neutron octavia lib
+LIBDIR=$DEST/neutron/devstack/lib
+source $LIBDIR/octavia
+
+
 saveenv=$-
 set -ex
 
